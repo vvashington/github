@@ -19,3 +19,7 @@ git log --decorate --> informa as alterações semelhante ao git log e as ramifi
  git show "hashdesejada" --> tras as alterações de um hash especifica
 
  DESFAZENDO MUDANÇAS
+ git checkout "momeDoArquivo" --> opção para desfazer a modificação
+ git reset --> opação de desfazer quando "commitar" em sua maquina
+
+ 
