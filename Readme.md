@@ -19,7 +19,10 @@ git log --decorate --> informa as alterações semelhante ao git log e as ramifi
  git show "hashdesejada" --> tras as alterações de um hash especifica
 
  DESFAZENDO MUDANÇAS
- git checkout "momeDoArquivo" --> opção para desfazer a modificação
- git reset --> opação de desfazer quando "commitar" em sua maquina
+git checkout "momeDoArquivo" --> opção para desfazer a modificação
+git reset --> opação de desfazer quando "commitar" em sua maquina voltando a versão anterior
+git reset HEAD Readme.md --> desfazer e retirar do stage.
+git reset --soft "hashdesejada" --> volta para estagio pos 
+git reset --mixed "hashdesejada" --> volta para stage (estagio de alteração)
+git reset --hard "hashdesejada" --> aponta apra hash anterior e apaga o historico no arquivo sem necessidade do checkout
 
- 
