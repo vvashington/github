@@ -26,3 +26,6 @@ git reset --soft "hashdesejada" --> volta para estagio pos
 git reset --mixed "hashdesejada" --> volta para stage (estagio de alteração)
 git reset --hard "hashdesejada" --> aponta apra hash anterior e apaga o historico no arquivo sem necessidade do checkout
 
+<h1>Alterando o arquivo novamente</h1>
+
+
